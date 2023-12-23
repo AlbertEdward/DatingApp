@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B1CD2DD2B338BB100AE707A /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CD2DC2B338BB100AE707A /* InfoView.swift */; };
+		5B1CD2DF2B338D1700AE707A /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CD2DE2B338D1700AE707A /* TitleModifier.swift */; };
+		5B1CD2E22B33909600AE707A /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1CD2E12B33909600AE707A /* ButtonModifier.swift */; };
+		5B2D2A372B361A1600E3B156 /* LookingForTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D2A362B361A1600E3B156 /* LookingForTypeEnum.swift */; };
+		5B2D2A392B361B7600E3B156 /* InterestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D2A382B361B7600E3B156 /* InterestType.swift */; };
+		5B2D2A3B2B364B8700E3B156 /* DragState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D2A3A2B364B8700E3B156 /* DragState.swift */; };
+		5B2D2A3E2B3661B200E3B156 /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D2A3D2B3661B200E3B156 /* SymbolModifier.swift */; };
+		5B2D2A412B3665FA00E3B156 /* CardTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D2A402B3665FA00E3B156 /* CardTransition.swift */; };
+		5B331C882B2E82E0003E5CDA /* BlackDatesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B331C872B2E82E0003E5CDA /* BlackDatesApp.swift */; };
+		5B331C8A2B2E82E0003E5CDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B331C892B2E82E0003E5CDA /* ContentView.swift */; };
+		5B331C8C2B2E82E1003E5CDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B331C8B2B2E82E1003E5CDA /* Assets.xcassets */; };
+		5B331C8F2B2E82E1003E5CDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B331C8E2B2E82E1003E5CDA /* Preview Assets.xcassets */; };
+		5B331C992B2E82E1003E5CDA /* BlackDatingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B331C982B2E82E1003E5CDA /* BlackDatingTests.swift */; };
+		5B331CA32B2E82E1003E5CDA /* BlackDatingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B331CA22B2E82E1003E5CDA /* BlackDatingUITests.swift */; };
+		5B331CA52B2E82E1003E5CDA /* BlackDatingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B331CA42B2E82E1003E5CDA /* BlackDatingUITestsLaunchTests.swift */; };
+		5B331CB22B2F10FD003E5CDA /* BlackDatesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B331CB12B2F10FD003E5CDA /* BlackDatesModel.swift */; };
+		5B331CB52B2F17E2003E5CDA /* BlackDatesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B331CB42B2F17E2003E5CDA /* BlackDatesData.swift */; };
+		5B331CB82B2F1846003E5CDA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B331CB72B2F1846003E5CDA /* CardView.swift */; };
+		5B331CBB2B2F30B2003E5CDA /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B331CBA2B2F30B2003E5CDA /* HeaderView.swift */; };
+		5B331CBD2B2F58C6003E5CDA /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B331CBC2B2F58C6003E5CDA /* FooterView.swift */; };
+		5B331CBF2B30EBAD003E5CDA /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B331CBE2B30EBAD003E5CDA /* HeaderComponent.swift */; };
+		5B331CC22B30ECB5003E5CDA /* GuideComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B331CC12B30ECB5003E5CDA /* GuideComponent.swift */; };
+		5B331CC42B30EE78003E5CDA /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B331CC32B30EE78003E5CDA /* GuideView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B331C952B2E82E1003E5CDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B331C7C2B2E82E0003E5CDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B331C832B2E82E0003E5CDA;
+			remoteInfo = Dating;
+		};
+		5B331C9F2B2E82E1003E5CDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B331C7C2B2E82E0003E5CDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B331C832B2E82E0003E5CDA;
+			remoteInfo = Dating;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B1CD2DC2B338BB100AE707A /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		5B1CD2DE2B338D1700AE707A /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
+		5B1CD2E12B33909600AE707A /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
+		5B2D2A362B361A1600E3B156 /* LookingForTypeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookingForTypeEnum.swift; sourceTree = "<group>"; };
+		5B2D2A382B361B7600E3B156 /* InterestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestType.swift; sourceTree = "<group>"; };
+		5B2D2A3A2B364B8700E3B156 /* DragState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragState.swift; sourceTree = "<group>"; };
+		5B2D2A3D2B3661B200E3B156 /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
+		5B2D2A402B3665FA00E3B156 /* CardTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTransition.swift; sourceTree = "<group>"; };
+		5B331C842B2E82E0003E5CDA /* Black Dates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Black Dates.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B331C872B2E82E0003E5CDA /* BlackDatesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackDatesApp.swift; sourceTree = "<group>"; };
+		5B331C892B2E82E0003E5CDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5B331C8B2B2E82E1003E5CDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B331C8E2B2E82E1003E5CDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5B331C942B2E82E1003E5CDA /* Black DatesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Black DatesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B331C982B2E82E1003E5CDA /* BlackDatingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackDatingTests.swift; sourceTree = "<group>"; };
+		5B331C9E2B2E82E1003E5CDA /* Black DatesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Black DatesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B331CA22B2E82E1003E5CDA /* BlackDatingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackDatingUITests.swift; sourceTree = "<group>"; };
+		5B331CA42B2E82E1003E5CDA /* BlackDatingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackDatingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5B331CB12B2F10FD003E5CDA /* BlackDatesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackDatesModel.swift; sourceTree = "<group>"; };
+		5B331CB42B2F17E2003E5CDA /* BlackDatesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackDatesData.swift; sourceTree = "<group>"; };
+		5B331CB72B2F1846003E5CDA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5B331CBA2B2F30B2003E5CDA /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		5B331CBC2B2F58C6003E5CDA /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		5B331CBE2B30EBAD003E5CDA /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
+		5B331CC12B30ECB5003E5CDA /* GuideComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideComponent.swift; sourceTree = "<group>"; };
+		5B331CC32B30EE78003E5CDA /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B331C812B2E82E0003E5CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B331C912B2E82E1003E5CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B331C9B2B2E82E1003E5CDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B1CD2E02B338D8400AE707A /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				5B1CD2DE2B338D1700AE707A /* TitleModifier.swift */,
+				5B1CD2E12B33909600AE707A /* ButtonModifier.swift */,
+				5B2D2A3D2B3661B200E3B156 /* SymbolModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		5B2D2A3C2B364DDE00E3B156 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				5B2D2A382B361B7600E3B156 /* InterestType.swift */,
+				5B2D2A3A2B364B8700E3B156 /* DragState.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		5B2D2A3F2B3665A800E3B156 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5B2D2A402B3665FA00E3B156 /* CardTransition.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		5B2D2A422B36685700E3B156 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		5B331C7B2B2E82E0003E5CDA = {
+			isa = PBXGroup;
+			children = (
+				5B331C862B2E82E0003E5CDA /* Black Dates */,
+				5B331C972B2E82E1003E5CDA /* BlackDatingTests */,
+				5B331CA12B2E82E1003E5CDA /* BlackDatingUITests */,
+				5B331C852B2E82E0003E5CDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B331C852B2E82E0003E5CDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B331C842B2E82E0003E5CDA /* Black Dates.app */,
+				5B331C942B2E82E1003E5CDA /* Black DatesTests.xctest */,
+				5B331C9E2B2E82E1003E5CDA /* Black DatesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B331C862B2E82E0003E5CDA /* Black Dates */ = {
+			isa = PBXGroup;
+			children = (
+				5B2D2A422B36685700E3B156 /* Helper */,
+				5B331C872B2E82E0003E5CDA /* BlackDatesApp.swift */,
+				5B2D2A3F2B3665A800E3B156 /* Extension */,
+				5B1CD2E02B338D8400AE707A /* Modifier */,
+				5B331CC02B30EBB2003E5CDA /* Component */,
+				5B331CB62B2F1835003E5CDA /* View */,
+				5B331CB32B2F110A003E5CDA /* Model */,
+				5B331CB92B2F191E003E5CDA /* Data */,
+				5B331C8D2B2E82E1003E5CDA /* Preview Content */,
+			);
+			path = "Black Dates";
+			sourceTree = "<group>";
+		};
+		5B331C8D2B2E82E1003E5CDA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5B331C8B2B2E82E1003E5CDA /* Assets.xcassets */,
+				5B331C8E2B2E82E1003E5CDA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5B331C972B2E82E1003E5CDA /* BlackDatingTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B331C982B2E82E1003E5CDA /* BlackDatingTests.swift */,
+			);
+			path = BlackDatingTests;
+			sourceTree = "<group>";
+		};
+		5B331CA12B2E82E1003E5CDA /* BlackDatingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B331CA22B2E82E1003E5CDA /* BlackDatingUITests.swift */,
+				5B331CA42B2E82E1003E5CDA /* BlackDatingUITestsLaunchTests.swift */,
+			);
+			path = BlackDatingUITests;
+			sourceTree = "<group>";
+		};
+		5B331CB32B2F110A003E5CDA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B331CB12B2F10FD003E5CDA /* BlackDatesModel.swift */,
+				5B2D2A362B361A1600E3B156 /* LookingForTypeEnum.swift */,
+				5B2D2A3C2B364DDE00E3B156 /* Enum */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B331CB62B2F1835003E5CDA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B331C892B2E82E0003E5CDA /* ContentView.swift */,
+				5B331CB72B2F1846003E5CDA /* CardView.swift */,
+				5B331CBA2B2F30B2003E5CDA /* HeaderView.swift */,
+				5B331CBC2B2F58C6003E5CDA /* FooterView.swift */,
+				5B331CC32B30EE78003E5CDA /* GuideView.swift */,
+				5B1CD2DC2B338BB100AE707A /* InfoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5B331CB92B2F191E003E5CDA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5B331CB42B2F17E2003E5CDA /* BlackDatesData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5B331CC02B30EBB2003E5CDA /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				5B331CBE2B30EBAD003E5CDA /* HeaderComponent.swift */,
+				5B331CC12B30ECB5003E5CDA /* GuideComponent.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B331C832B2E82E0003E5CDA /* Black Dates */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B331CA82B2E82E1003E5CDA /* Build configuration list for PBXNativeTarget "Black Dates" */;
+			buildPhases = (
+				5B331C802B2E82E0003E5CDA /* Sources */,
+				5B331C812B2E82E0003E5CDA /* Frameworks */,
+				5B331C822B2E82E0003E5CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Black Dates";
+			productName = Dating;
+			productReference = 5B331C842B2E82E0003E5CDA /* Black Dates.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B331C932B2E82E1003E5CDA /* Black DatesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B331CAB2B2E82E1003E5CDA /* Build configuration list for PBXNativeTarget "Black DatesTests" */;
+			buildPhases = (
+				5B331C902B2E82E1003E5CDA /* Sources */,
+				5B331C912B2E82E1003E5CDA /* Frameworks */,
+				5B331C922B2E82E1003E5CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B331C962B2E82E1003E5CDA /* PBXTargetDependency */,
+			);
+			name = "Black DatesTests";
+			productName = DatingTests;
+			productReference = 5B331C942B2E82E1003E5CDA /* Black DatesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B331C9D2B2E82E1003E5CDA /* Black DatesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B331CAE2B2E82E1003E5CDA /* Build configuration list for PBXNativeTarget "Black DatesUITests" */;
+			buildPhases = (
+				5B331C9A2B2E82E1003E5CDA /* Sources */,
+				5B331C9B2B2E82E1003E5CDA /* Frameworks */,
+				5B331C9C2B2E82E1003E5CDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B331CA02B2E82E1003E5CDA /* PBXTargetDependency */,
+			);
+			name = "Black DatesUITests";
+			productName = DatingUITests;
+			productReference = 5B331C9E2B2E82E1003E5CDA /* Black DatesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B331C7C2B2E82E0003E5CDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5B331C832B2E82E0003E5CDA = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					5B331C932B2E82E1003E5CDA = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 5B331C832B2E82E0003E5CDA;
+					};
+					5B331C9D2B2E82E1003E5CDA = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 5B331C832B2E82E0003E5CDA;
+					};
+				};
+			};
+			buildConfigurationList = 5B331C7F2B2E82E0003E5CDA /* Build configuration list for PBXProject "Black Dates" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B331C7B2B2E82E0003E5CDA;
+			productRefGroup = 5B331C852B2E82E0003E5CDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B331C832B2E82E0003E5CDA /* Black Dates */,
+				5B331C932B2E82E1003E5CDA /* Black DatesTests */,
+				5B331C9D2B2E82E1003E5CDA /* Black DatesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B331C822B2E82E0003E5CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B331C8F2B2E82E1003E5CDA /* Preview Assets.xcassets in Resources */,
+				5B331C8C2B2E82E1003E5CDA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B331C922B2E82E1003E5CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B331C9C2B2E82E1003E5CDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B331C802B2E82E0003E5CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B331C8A2B2E82E0003E5CDA /* ContentView.swift in Sources */,
+				5B1CD2DD2B338BB100AE707A /* InfoView.swift in Sources */,
+				5B2D2A3B2B364B8700E3B156 /* DragState.swift in Sources */,
+				5B331CBD2B2F58C6003E5CDA /* FooterView.swift in Sources */,
+				5B1CD2DF2B338D1700AE707A /* TitleModifier.swift in Sources */,
+				5B331CBB2B2F30B2003E5CDA /* HeaderView.swift in Sources */,
+				5B331CB22B2F10FD003E5CDA /* BlackDatesModel.swift in Sources */,
+				5B1CD2E22B33909600AE707A /* ButtonModifier.swift in Sources */,
+				5B331CBF2B30EBAD003E5CDA /* HeaderComponent.swift in Sources */,
+				5B331CB52B2F17E2003E5CDA /* BlackDatesData.swift in Sources */,
+				5B2D2A412B3665FA00E3B156 /* CardTransition.swift in Sources */,
+				5B2D2A372B361A1600E3B156 /* LookingForTypeEnum.swift in Sources */,
+				5B331C882B2E82E0003E5CDA /* BlackDatesApp.swift in Sources */,
+				5B331CB82B2F1846003E5CDA /* CardView.swift in Sources */,
+				5B331CC22B30ECB5003E5CDA /* GuideComponent.swift in Sources */,
+				5B331CC42B30EE78003E5CDA /* GuideView.swift in Sources */,
+				5B2D2A392B361B7600E3B156 /* InterestType.swift in Sources */,
+				5B2D2A3E2B3661B200E3B156 /* SymbolModifier.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B331C902B2E82E1003E5CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B331C992B2E82E1003E5CDA /* BlackDatingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B331C9A2B2E82E1003E5CDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B331CA32B2E82E1003E5CDA /* BlackDatingUITests.swift in Sources */,
+				5B331CA52B2E82E1003E5CDA /* BlackDatingUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B331C962B2E82E1003E5CDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B331C832B2E82E0003E5CDA /* Black Dates */;
+			targetProxy = 5B331C952B2E82E1003E5CDA /* PBXContainerItemProxy */;
+		};
+		5B331CA02B2E82E1003E5CDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B331C832B2E82E0003E5CDA /* Black Dates */;
+			targetProxy = 5B331C9F2B2E82E1003E5CDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5B331CA62B2E82E1003E5CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B331CA72B2E82E1003E5CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B331CA92B2E82E1003E5CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Black Dates/\"";
+				DEVELOPMENT_TEAM = BM76Y8T86Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = con.albertkhurwshudyan.Dating;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B331CAA2B2E82E1003E5CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Black Dates/\"";
+				DEVELOPMENT_TEAM = BM76Y8T86Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = con.albertkhurwshudyan.Dating;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B331CAC2B2E82E1003E5CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = con.albertkhurwshudyan.DatingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Black Dates.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Black Dates";
+			};
+			name = Debug;
+		};
+		5B331CAD2B2E82E1003E5CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = con.albertkhurwshudyan.DatingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Black Dates.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Black Dates";
+			};
+			name = Release;
+		};
+		5B331CAF2B2E82E1003E5CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = con.albertkhurwshudyan.DatingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dating;
+			};
+			name = Debug;
+		};
+		5B331CB02B2E82E1003E5CDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = con.albertkhurwshudyan.DatingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dating;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B331C7F2B2E82E0003E5CDA /* Build configuration list for PBXProject "Black Dates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B331CA62B2E82E1003E5CDA /* Debug */,
+				5B331CA72B2E82E1003E5CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B331CA82B2E82E1003E5CDA /* Build configuration list for PBXNativeTarget "Black Dates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B331CA92B2E82E1003E5CDA /* Debug */,
+				5B331CAA2B2E82E1003E5CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B331CAB2B2E82E1003E5CDA /* Build configuration list for PBXNativeTarget "Black DatesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B331CAC2B2E82E1003E5CDA /* Debug */,
+				5B331CAD2B2E82E1003E5CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B331CAE2B2E82E1003E5CDA /* Build configuration list for PBXNativeTarget "Black DatesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B331CAF2B2E82E1003E5CDA /* Debug */,
+				5B331CB02B2E82E1003E5CDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B331C7C2B2E82E0003E5CDA /* Project object */;
+}
